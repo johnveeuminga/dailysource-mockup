@@ -5,7 +5,7 @@
       <p class='balance__subheading text-center'>We give you stories that are balanced: providing both sides of the story. More importantly, we fix <br /> the greatest imbalances of the news media by giving you balance in the following key areas:</p>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Bad News &<br/> Good News</h3>
+          <h3>Bad News +<br/> Good News</h3>
           <img class='d-block mx-auto' src="@/assets/good-news.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -36,7 +36,7 @@
         </div>
         <div class="balance__right">
           <p>
-            <span class="font-weight-bold">Other news media:</span> ffocus on single occurences with lots of useless minutiae that don’t tell you much, and even give you a false impression.</p>
+            <span class="font-weight-bold">Other news media:</span> focus on single occurences with lots of useless minutiae that don’t tell you much, and even give you a false impression.</p>
           <p>
             <span class="font-weight-bold">DailySource:</span> We tell you what’s really happening. For example, in a year in which suicide drops 18%, if you read five stories about individual suicides, you’ll wrongly think it’s on the rise. If instead you read one story saying it’s dropped, you get the right info with 80% less time. The choice is yours: be misinformed with more effort, or be well informed with less effort. 
           </p>
