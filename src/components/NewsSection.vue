@@ -68,8 +68,8 @@ export default {
   }
 
   &__subheading {
-    font-size: 1.5rem !important;
-    max-width: 830px;
+    font-size: 1.625rem !important;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -87,7 +87,7 @@ export default {
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
   }
 }
 </style>

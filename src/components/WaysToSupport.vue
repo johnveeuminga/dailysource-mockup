@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
 .ways-to-support {
   h2 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   img {
@@ -42,7 +42,7 @@ export default {
 
   p {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.375rem;
   }
 }
 </style>

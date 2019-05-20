@@ -29,7 +29,7 @@ export default {
 
   p {
     font-size: 1.625rem;
-    max-width: 1200px;
+    max-width: 1280px;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;

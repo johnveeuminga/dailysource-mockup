@@ -15,6 +15,9 @@ $container-max-widths: (
   xxl: 1425px,
 ) !default;
 
+$spacers: (
+  4: 2.625rem,
+);
 
 $primary: #08265D;
 $secondary: #4475B7;
@@ -23,6 +26,6 @@ $gray: #F4F4F4;
 $headings-font-family: 'Georgia';
 
 $h2-font-size: 3.25rem;
-$h3-font-size: 2.375rem;
+$h3-font-size: 2.5rem;
 
 $border-radius: 0;

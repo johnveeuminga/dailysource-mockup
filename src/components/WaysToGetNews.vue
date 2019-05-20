@@ -61,8 +61,8 @@ export default {
   }
 
   .subheading {
-    font-size: 1.5rem;
-    max-width: 875px;
+    font-size: 1.625rem;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -87,7 +87,7 @@ export default {
     max-width: 560px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 1.375rem;
   }
 
   .newsletter-form-container {
@@ -111,7 +111,7 @@ export default {
       list-style: none;
       display: flex;
       align-items: center;
-      font-size: 20px;
+      font-size: 1.375rem;
 
       &:before {
         content: '';
