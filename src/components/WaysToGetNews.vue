@@ -66,6 +66,7 @@ export default {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   img {
