@@ -2,9 +2,10 @@
   <section class="balance py-4">
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
+      <p class="balance__subheading">We give you stories that are balanced: providing both sides of the story. More importantly, we fix <br /> the greatest imbalances of the news media by giving you balance in the following key areas:</p>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Good News</h3>
+          <h3>Bad news + <br/> good news</h3>
           <img class='d-block mx-auto' src="@/assets/good-news.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -17,7 +18,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>The bottom half</h3>
+          <h3>The richest 15% + <br /> the poorest 50%</h3>
           <img class='d-block mx-auto' src="@/assets/the-bottom-half.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -30,7 +31,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Big-picture info</h3>
+          <h3>Isolated events + <br />actual trends</h3>
           <img class='d-block mx-auto' src="@/assets/big-pic-info.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -55,14 +56,22 @@ export default {
 .balance {
   background-color: $gray;
 
+  &__subheading {
+    font-size: 1.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   h3 {
     font-family: $font-family-base;
+    font-size: 1.875rem;
     color: $primary;
-    text-align: center;
     margin-bottom: 1rem;
     line-height: 1;
   }
@@ -78,13 +87,16 @@ export default {
     flex-grow: 1;
     flex-shrink: 1;
     margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   &__right {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    margin-top: .125rem;
+    margin-top: 1rem;
   }
   
   p {

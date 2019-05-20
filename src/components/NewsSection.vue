@@ -68,6 +68,7 @@ export default {
   }
 
   &__subheading {
+    margin-bottom: 1.625rem;
     font-size: 1.5rem !important;
     max-width: 830px;
     margin-left: auto;

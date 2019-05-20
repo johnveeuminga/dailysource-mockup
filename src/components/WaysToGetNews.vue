@@ -57,7 +57,7 @@ export default {
 
   h2 {
     color: $primary;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .subheading {
@@ -66,6 +66,7 @@ export default {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   img {
