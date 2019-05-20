@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-4 text-center">
           <img src="@/assets/hands-circle.-1.png" alt="">
-          <p>We have many virtual volunteer opportunities including news editing, online marketing, research and more.</p>\
+          <p>We have many virtual volunteer opportunities including news editing, online marketing, research and more.</p>
         </div>
         <div class="col-md-4 text-center">
           <img src="@/assets/heart-donate.b764ea04.png" alt="">
