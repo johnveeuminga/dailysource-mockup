@@ -1,0 +1,28 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1300px,
+  xxl: 1500px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1220px,
+  xxl: 1425px,
+) !default;
+
+
+$primary: #08265D;
+$secondary: #4475B7;
+$gray: #F8F8F8;
+
+$headings-font-family: 'Georgia';
+
+$h2-font-size: 3rem;
+$h3-font-size: 2.375rem;
+
+$border-radius: 0;
