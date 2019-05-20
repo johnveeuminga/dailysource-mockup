@@ -2,7 +2,7 @@
   <section class="news py-4">
     <div class="container">
       <h2 class='text-center text-primary'>News about making the world better</h2>
-      <p class='news__subheading text-center'>We cover the biggest problems in the world to bring attention to them. We also cover positive things people are doing to help, so people will be encouraged and inspired to do more good.  Some of the topics we cover:</p>
+      <p class='news__subheading text-center'>We cover the greatest problems in the world to bring attention to them. We also cover positive things people are doing to help, so people will be encouraged and inspired to do more good.  Some of the topics we cover:</p>
       <div class="row news__row-wrapper">
         <div class="col-md-4">
           <div class="news__col">

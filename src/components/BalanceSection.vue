@@ -2,6 +2,7 @@
   <section class="balance py-4">
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
+      <p class='balance__subheading'>We choose stories that are balanced about the topics they cover - providing both sides of the story.<br/>More importantly, we address the greatest imbalances of the news media by providing more focus on:</p>
       <div class="balance__section d-flex">
         <div class="balance__left">
           <h3>Good News</h3>
@@ -9,9 +10,9 @@
         </div>
         <div class="balance__right">
           <p>
-            <span class="font-weight-bold">Other news media:</span> think it’s only news if it’s bad. They have mostly bad news with a bit of good news.</p>
+            <span class="font-weight-bold">Other sources:</span> give you 95% bad news with almost no good news. It's really depressing. </p>
           <p>
-            <span class="font-weight-bold">DailySource:</span> We think it’s important to share the good along with the bad because the news shouldn’t only be depressing. It should also hearten and inspire. Having good news is also far more accurate. Even on days where a terrible event happens in one place, many positive things occur in other places. So, we track the amount of good news on our site, and at least a third of the content must be good news.
+            <span class="font-weight-bold">DailySource:</span> has news to hearten and inspire you. Further, having enough good news is more accurate. In reality, even when a bad thing occurs in one place, good things occur in others. Thus, we track our ratio of good to bad, and at least 35% of our daily content is good news.
           </p>
         </div>
       </div>
@@ -22,9 +23,9 @@
         </div>
         <div class="balance__right">
           <p>
-            <span class="font-weight-bold">Other news media:</span> focus almost entirely on the top 30% of people, those making over $5 per hour.</p>
+            <span class="font-weight-bold">Other sources:</span> focus almost 100% on the top 20% of people: those making over $4.9 per hour. </p>
           <p>
-            <span class="font-weight-bold">DailySource:</span> Half of our content is about people in the bottom half: those making under $1.5 an hour. 16 million die yearly because they earn so little: the same number as two Holocausts each year. It’s the biggest problem in the world, but the media ignores it because they're not located here. They also have it far worse with human rights, slavery, democracy, infrastructure, clean water and other key things.
+            <span class="font-weight-bold">DailySource:</span> covers all people equally. So half of our content is about people in the bottom 50%: those making under $1.2 per hour. 14 million die yearly because they earn so little. It’s the biggest problem in the world, but the media ignores it because they're not located here. These people also have it far worse in almost all other key areas including human rights, infrastructure and housing.
           </p>
         </div>
       </div>
@@ -35,9 +36,9 @@
         </div>
         <div class="balance__right">
           <p>
-            <span class="font-weight-bold">Other news media:</span> ffocus on single occurences with lots of useless minutiae that don’t tell you much, and even give you a false impression.</p>
+            <span class="font-weight-bold">Other sources:</span>  hit you with isolated events with lots of tiny details that don’t tell you the actual big-picture trend, and often give you a false impression of it.</p>
           <p>
-            <span class="font-weight-bold">DailySource:</span> We tell you what’s really happening. For example, in a year in which suicide drops 18%, if you read five stories about individual suicides, you’ll wrongly think it’s on the rise. If instead you read one story saying it’s dropped, you get the right info with 80% less time. The choice is yours: be misinformed with more effort, or be well informed with less effort. 
+            <span class="font-weight-bold">DailySource:</span> tells you what’s really happening. For example, in a year when crime drops 9%, if you read five stories about single crimes, you’ll wrongly think it’s on the rise. If instead you read one story saying it’s dropped, you get the correct big-picture info with far less effort. The choice is yours: be misinformed with more effort, or be well informed with less effort.
           </p>
         </div>
       </div>
@@ -54,6 +55,14 @@ export default {
 <style lang="scss" scoped>
 .balance {
   background-color: $gray;
+
+  &__subheading {
+    font-size: 1.625rem !important;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 
   h2 {
     margin-bottom: 2rem;
