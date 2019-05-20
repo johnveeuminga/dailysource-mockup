@@ -12,7 +12,7 @@
         <option selected> GMT -05:00: Eastern Time </option>
       </select>
     </div>
-    <div class="btn-container text-center">
+    <div class="btn-container text-right">
       <button class="btn btn-primary text-uppercase">Submit</button>
     </div>
   </form>
@@ -33,11 +33,11 @@ export default {
     }
   }
   &__time-input {
-    max-width: 90px;
+    max-width: 85px;
   }
 
   &__time-zone {
-    max-width: 300px;
+    max-width: 285px;
   }
 }
 </style>

@@ -3,17 +3,24 @@
     <div class="container">
       <h2 class='text-center text-primary'>Ways to support our nonprofit’s work</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <img src="@/assets/hands-circle.-1.png" alt="">
-          <p>We have many volunteer opportunities including writing, marketing, research, web development and more.</p>
+          <p>We have many virtual volunteer opportunities including news editing, online marketing, research and more.</p>
+          <p>
+            <a href="#">See details.</a>
+          </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <img src="@/assets/heart-donate.b764ea04.png" alt="">
-          <p>We help nonprofits do great things for the world. We rely on donations from kind people like you to make it possible.</p>
+          <p>Help us to provide top quality news that can change the world. We rely on people like you to make it possible.</p>
+          <p>
+            <a href="#">Please donate now.</a>
+          </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
           <img src="@/assets/social-media.61438aaf.png" alt="">
-          <p>Please let people know about our nonprofit on social media by clicking the buttons above to follow or like us.</p>
+          <p>Please let your friends know about our news website by following us or posting about us on social media.</p>
+          <p class='mb-0'>For social media options, click <a href="#">here.</a></p>
         </div>
       </div>
     </div>
@@ -28,6 +35,8 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-support {
+  background-color: $gray;
+  
   h2 {
     margin-bottom: 1.25rem;
   }

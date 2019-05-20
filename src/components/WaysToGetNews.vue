@@ -20,7 +20,7 @@
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
           <h3>Make us your home page</h3>
-          <p>Make the Daily Source your home page and you’ll have no chance of missing our great stories. To learn how to do this on your browser, click <a href="#">here</a>.</p>
+          <p>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/rss.png" alt="">
@@ -90,7 +90,7 @@ export default {
   }
 
   .newsletter-form-container {
-    max-width: 500px;
+    max-width: 470px;
     margin-left: auto;
     margin-right: auto;
   }
