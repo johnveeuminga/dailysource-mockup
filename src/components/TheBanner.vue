@@ -29,8 +29,8 @@ export default {
 
   p {
     font-size: 1.5rem;
-    max-width: 1200px;
-    margin-bottom: 1.25rem;
+    max-width: 1280px;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
 

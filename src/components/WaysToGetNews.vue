@@ -78,7 +78,6 @@ export default {
   h3 {
     text-align: center;
     color: $primary;
-    font-size: 30px;
     margin-top: 10px;
   }
 
