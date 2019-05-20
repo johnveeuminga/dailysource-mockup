@@ -86,6 +86,7 @@ export default {
     flex-shrink: 1;
     margin-right: 2rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
