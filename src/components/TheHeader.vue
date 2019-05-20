@@ -3,7 +3,7 @@
     <div class="container">
       <img src="@/assets/header.jpg" alt="Header Placeholder">
     </div>
-    <nav id='nav' class='navbar bg-secondary'>
+    <!-- <nav id='nav' class='navbar bg-secondary'>
       <div class="container">
         <div class="navbar__wrapper">
           <ul class='navbar__nav nav'>
@@ -45,7 +45,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
 </template>
 
@@ -63,6 +63,8 @@ export default {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  border-bottom: 2px solid $primary;
 }
 
 .navbar {

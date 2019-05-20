@@ -24,13 +24,13 @@ export default {
   h1 {
     color: $primary;
     font-size: $h2-font-size;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     max-width: 1200px;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
 
