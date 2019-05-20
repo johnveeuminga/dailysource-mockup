@@ -57,11 +57,12 @@ export default {
 
   h2 {
     color: $primary;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .subheading {
     font-size: 1.625rem;
+    margin-bottom: 3rem;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;

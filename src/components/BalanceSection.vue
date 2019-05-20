@@ -2,7 +2,9 @@
   <section class="balance py-4">
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
-      <p class='balance__subheading'>We choose stories that are balanced about the topics they cover - providing both sides of the story.<br/>More importantly, we address the greatest imbalances of the news media by providing more focus on:</p>
+      <p class='balance__subheading'>We choose stories that are balanced about the topics they cover - providing both sides of the story. </p>
+      <p class='balance__subheading'>More importantly, we address the greatest imbalances of the news media by providing more focus on:</p>
+
       <div class="balance__section d-flex">
         <div class="balance__left">
           <h3>Good News</h3>
@@ -58,14 +60,13 @@ export default {
 
   &__subheading {
     font-size: 1.625rem !important;
-    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   h3 {
@@ -79,6 +80,10 @@ export default {
   &__section {
     &:not(:last-of-type) {
       margin-bottom: 2rem;
+    }
+
+    &:first-of-type {
+      margin-top: 3rem;
     }
   }
 
