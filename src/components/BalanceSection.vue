@@ -64,7 +64,7 @@ export default {
   }
 
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   h3 {

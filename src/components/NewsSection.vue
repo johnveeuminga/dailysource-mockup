@@ -64,11 +64,11 @@ export default {
   }
 
   &__row-wrapper {
-    padding-top: 2.5rem;
   }
 
   &__subheading {
     font-size: 1.625rem !important;
+    margin-bottom: 3rem;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;

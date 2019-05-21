@@ -1,5 +1,5 @@
 <template>
-  <section id='banner' class='banner py-4'>
+  <section id='banner' class='banner pt-4'>
     <div class="container">
       <h1 class='text-center'>Welcome to the Daily Source</h1>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
@@ -20,11 +20,13 @@ export default {
 <style lang='scss' scoped>
 .banner {
   background-color: $gray;
+  padding-bottom: 2.75rem;
 
   h1 {
     color: $primary;
     font-size: $h2-font-size;
     margin-bottom: 1rem;
+    line-height: 1;
   }
 
   p {
