@@ -25,6 +25,7 @@ export default {
     color: $primary;
     font-size: $h2-font-size;
     margin-bottom: 1.25rem;
+    line-height: 1;
   }
 
   p {

@@ -97,6 +97,10 @@ export default {
     flex-shrink: 1;
     flex-basis: 0;
     margin-top: 1rem;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
   }
   
   p {

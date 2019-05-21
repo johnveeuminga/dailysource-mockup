@@ -1,5 +1,5 @@
 <template>
-  <section class="news py-4">
+  <section class="news pb-4">
     <div class="container">
       <h2 class='text-center text-primary'>News about making the world better</h2>
       <p class='news__subheading text-center'>We cover the biggest problems in the world to bring attention to them. We also cover positive things people are doing to help, so people will be encouraged and inspired to do more good.  Some of the topics we cover:</p>
@@ -59,17 +59,18 @@ export default {
 
 <style lang="scss" scoped>
 .news {
+  padding-top: 2.875rem;
+
   h2 {
     margin-bottom: 1.25rem;
   }
 
   &__row-wrapper {
-    padding-top: 2.5rem;
   }
 
   &__subheading {
-    margin-bottom: 1.625rem;
     font-size: 1.5rem !important;
+    margin-bottom: 3rem;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;

@@ -38,7 +38,7 @@ export default {
   background-color: $gray;
   
   h2 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem;
   }
 
   img {

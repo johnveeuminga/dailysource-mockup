@@ -57,7 +57,7 @@ export default {
 
   h2 {
     color: $primary;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .subheading {
