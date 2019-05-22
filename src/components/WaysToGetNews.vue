@@ -16,6 +16,17 @@
           <img src="@/assets/twitter.png" alt="">
           <h3>Twitter</h3>
           <p>Follow our Twitter Feeds</p>
+          <ul class='twitter-handles list-unstyled'>
+            <li>
+              <a href="#">@ <span>DailyTopStories</span></a>: Only the top stories
+            </li>
+            <li>
+              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion
+            </li>
+            <li>
+              <a href="#">@ <span>DailySource</span></a>: Everything
+            </li>
+          </ul>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
@@ -120,6 +131,26 @@ export default {
         height: 16px;
         background-image: url('../assets/icon_rss.png');
         margin-right: .5em;
+      }
+    }
+  }
+
+  .twitter-handles {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+
+    li {
+      font-size: 20px;
+
+      a {
+        text-decoration: none !important;
+        color: $body-color;
+
+        span {
+          color: $primary;
+        }
       }
     }
   }
