@@ -91,7 +91,7 @@ export default {
   }
 
   .newsletter-form-container {
-    max-width: 470px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }

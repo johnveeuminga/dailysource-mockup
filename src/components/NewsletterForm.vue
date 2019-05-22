@@ -33,11 +33,11 @@ export default {
     }
   }
   &__time-input {
-    max-width: 85px;
+    max-width: 95px;
   }
 
   &__time-zone {
-    max-width: 285px;
+    max-width: 295px;
   }
 }
 </style>
