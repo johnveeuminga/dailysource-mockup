@@ -22,7 +22,7 @@
           <div class="news__col">
             <img class='news__img' src="@/assets/poverty.png" alt="">
             <h3 class='text-center'>Poverty</h3>
-            <p>We focus less on domestic politics and more on the key aspects of democracies such as free and fair elections, the rule of law, political freedom, an independent judiciary and a healthy, vibrant press. </p>
+            <p>Nonprofits play a major role in helping people and communities. We report on voluntarism, philanthropy, nonprofit trends, innovative ideas and government policies that affect nonprofits.</p>
           </div>
         </div>
         <div class="col-md-4">
