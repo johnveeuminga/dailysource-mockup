@@ -18,13 +18,13 @@
           <p>Follow our Twitter Feeds</p>
           <ul class='twitter-handles'>
             <li>
-              <a href="#">@ DailyTopStories</a>: Only the top stories
+              <a href="#">@ <span>DailyTopStories</span></a>: Only the top stories
             </li>
             <li>
-              <a href="#">@ DailySourceNews</a>: All the news, no opinion
+              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion
             </li>
             <li>
-              <a href="#">@ DailySource:</a> Everything
+              <a href="#">@ <span>DailySource</span></a>: Everything
             </li>
           </ul>
         </div>
@@ -146,7 +146,12 @@ export default {
     font-size: 1.375rem;
 
     a {
-      text-decoration: underline;
+      text-decoration: none !important;
+      color: #212529;
+      span {
+        text-decoration: underline !important;
+        color: $primary;
+      }
     }
   }
 }
