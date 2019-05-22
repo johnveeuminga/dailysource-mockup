@@ -22,21 +22,21 @@
           <div class="news__col">
             <img class='news__img' src="@/assets/poverty.png" alt="">
             <h3 class='text-center'>Poverty</h3>
-            <p>Nonprofits play a major role in helping people and communities. We report on voluntarism, philanthropy, nonprofit trends, innovative ideas and government policies that affect nonprofits.</p>
+            <p>Half of all people are living on less than $3,000 a year for all their needs. This affects their health, families, education, shelter and all else. We tell you their and the stories of the people and groups helping them.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="news__col">
             <img class='news__img' src="@/assets/human-rights.png" alt="">
             <h3 class='text-center'>Human Rights</h3>
-            <p>Nonprofits play a major role in helping people and communities. We report on voluntarism, philanthropy, nonprofit trends, innovative ideas and government policies that affect nonprofits.</p>
+            <p>We bring you stories of people fighting for freedom of speech, assembly and movement, freedom from torture, slavery and arbitrary arrest, and the rights to a fair trial, asylum and personal security.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="news__col">
             <img class='news__img' src="@/assets/science-and-tech.png" alt="">
             <h3 class='text-center'>Science and Tech</h3>
-            <p>We bring you stories of people fighting for freedom of speech, assembly and movement, freedom from torture, slavery and arbitrary arrest, and the rights to a fair trial, asylum and personal security.</p>
+            <p>We tell you about key advances in health and medicine, new discoveries in science, and emerging changes in technology that improve communication, productivity and quality of life.</p>
           </div>
         </div>
         <div class="col-md-4">
