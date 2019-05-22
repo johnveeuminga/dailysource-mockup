@@ -22,7 +22,7 @@
           <div class="news__col">
             <img class='news__img' src="@/assets/poverty.png" alt="">
             <h3 class='text-center'>Poverty</h3>
-            <p>Nonprofits play a major role in helping people and communities. We report on voluntarism, philanthropy, nonprofit trends, innovative ideas and government policies that affect nonprofits.</p>
+            <p>Half of all people are living on less than $3,000 a year for all their needs. This affects their health, families, education, shelter and all else. We tell you their and the stories of the people and groups helping them.</p>
           </div>
         </div>
         <div class="col-md-4">
