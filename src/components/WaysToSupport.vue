@@ -55,6 +55,10 @@ export default {
   p {
     text-align: center;
     font-size: 20px;
+
+    a {
+      text-decoration: underline;
+    }
   }
 }
 </style>
