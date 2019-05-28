@@ -29,10 +29,12 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-support {
+  padding-bottom: 1.5rem !important;
   background-color: $gray;
   
   h2 {
     margin-bottom: 3rem;
+    line-height: 1;
   }
 
   img {

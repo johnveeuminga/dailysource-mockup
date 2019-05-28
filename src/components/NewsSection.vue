@@ -59,8 +59,11 @@ export default {
 
 <style lang="scss" scoped>
 .news {
+  padding-bottom: 1.375rem !important;
+
   h2 {
     margin-bottom: 1.25rem;
+    line-height: 1;
   }
 
   &__row-wrapper {

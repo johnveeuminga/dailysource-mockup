@@ -65,10 +65,12 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-get-news {
+  padding-bottom: 0.25rem !important;
 
   h2 {
     color: $primary;
     margin-bottom: 1.25rem;
+    line-height: 1;
   }
 
   .subheading {
