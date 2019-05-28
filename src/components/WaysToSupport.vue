@@ -35,6 +35,9 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-support {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.875rem !important;
+
   background-color: $gray;
   
   h2 {

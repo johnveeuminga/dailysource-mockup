@@ -19,6 +19,7 @@ export default {
 
 <style lang='scss' scoped>
 .banner {
+  padding-top: 2.625rem !important;
   background-color: $gray;
 
   h1 {

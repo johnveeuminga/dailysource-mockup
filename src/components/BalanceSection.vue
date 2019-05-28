@@ -55,6 +55,8 @@ export default {
 <style lang="scss" scoped>
 .balance {
   background-color: $gray;
+  padding-top: 2.375rem !important;
+  padding-bottom: 2.625rem !important;
 
   &__subheading {
     font-size: 1.5rem !important;
