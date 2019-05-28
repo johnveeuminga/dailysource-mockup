@@ -146,6 +146,24 @@ export default {
     li {
       font-size: 20px;
 
+      &:first-child {
+        a {
+          color: #F6C448;
+        }
+      }
+
+      &:nth-child(2) {
+        a {
+          color: #6334CE;
+        }
+      }
+
+      &:nth-child(3) {
+        a {
+          color: #5DCDE3;
+        }
+      }
+
       a {
         text-decoration: none !important;
         color: $body-color;

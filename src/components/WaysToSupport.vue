@@ -42,6 +42,7 @@ export default {
   
   h2 {
     margin-bottom: 3rem;
+    line-height: 1;
   }
 
   img {

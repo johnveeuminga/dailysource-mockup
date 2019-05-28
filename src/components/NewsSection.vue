@@ -60,7 +60,7 @@ export default {
 <style lang="scss" scoped>
 .news {
   padding-top: 2.375rem !important;
-  padding-bottom: 1.375em !important;
+  padding-bottom: 1.125em !important;
 
   h2 {
     margin-bottom: 1.25rem;
