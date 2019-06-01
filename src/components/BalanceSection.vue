@@ -5,7 +5,7 @@
       <p class="balance__subheading">We give you stories that are balanced: providing both sides of the story. More importantly, we fix <br /> the greatest imbalances of the news media by giving you balance in the following key areas:</p>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Bad news + <br/> good news</h3>
+          <h3>Bad news vs. <br/> good news</h3>
           <img class='d-block mx-auto' src="@/assets/good-news.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -18,7 +18,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>The richest 15% + <br /> the poorest 50%</h3>
+          <h3>The richest 20% vs. <br /> the poorest 50%</h3>
           <img class='d-block mx-auto' src="@/assets/the-bottom-half.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -31,7 +31,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Isolated events + <br />actual trends</h3>
+          <h3>Isolated events vs. <br />actual trends</h3>
           <img class='d-block mx-auto' src="@/assets/big-pic-info.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -98,7 +98,7 @@ export default {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    margin-top: 1rem;
+    margin-top: .25rem;
 
     p:last-of-type {
       margin-bottom: 0;

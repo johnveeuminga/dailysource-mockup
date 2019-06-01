@@ -5,6 +5,7 @@
       <div class="row">
         <div class="col-md-4 text-center">
           <img src="@/assets/hands-circle.-1.png" alt="">
+          <h3>Volunteer</h3>
           <p>We have many virtual volunteer opportunities including news editing, online marketing, research and more.</p>
           <p>
             <a href="#">See details.</a>
@@ -12,6 +13,7 @@
         </div>
         <div class="col-md-4 text-center">
           <img src="@/assets/heart-donate.b764ea04.png" alt="">
+          <h3>Donate</h3>
           <p>Help us to provide top quality news that can change the world. We rely on people like you to make it possible.</p>
           <p>
             <a href="#">Please donate now.</a>
@@ -19,8 +21,9 @@
         </div>
         <div class="col-md-4 text-center">
           <img src="@/assets/social-media.61438aaf.png" alt="">
+          <h3>Spread The Word</h3>
           <p>Please let your friends know about our news website by following us or posting about us on social media.</p>
-          <p class='mb-0'>For social media options, click <a href="#">here.</a></p>
+          <p class='mb-0'><a href="#">For social media options, click here.</a></p>
         </div>
       </div>
     </div>
@@ -45,6 +48,12 @@ export default {
     line-height: 1;
   }
 
+  h3 {
+    margin-top: 14px;
+    color: $blue;
+    font-family: $headings-font-family;
+  }
+
   img {
     display: block;
     margin-left: auto;
@@ -58,7 +67,8 @@ export default {
     font-size: 20px;
 
     a {
-      text-decoration: underline;
+      color: $blue;
+      text-decoration: none !important;
     }
   }
 }

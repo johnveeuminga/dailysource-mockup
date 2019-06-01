@@ -15,16 +15,16 @@
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/twitter.png" alt="">
           <h3>Twitter</h3>
-          <p>Follow our Twitter Feeds</p>
+          <p>Follow Our Twitter Timelines:</p>
           <ul class='twitter-handles list-unstyled'>
             <li>
-              <a href="#">@ <span>DailyTopStories</span></a>: Only the top stories
+              <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
             </li>
             <li>
-              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion
+              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion pieces
             </li>
             <li>
-              <a href="#">@ <span>DailySource</span></a>: Everything
+              <a href="#">@ <span>DailySource</span></a>: All the news and opinion
             </li>
           </ul>
         </div>
@@ -169,7 +169,7 @@ export default {
         color: $body-color;
 
         span {
-          color: $primary;
+          color: $blue;
         }
       }
     }
