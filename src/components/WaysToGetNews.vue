@@ -12,10 +12,24 @@
             <newsletter-form />
           </div>
         </div>
-        <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/twitter.png" alt="">
+        <div class="col-md-6 ways-to-get-news__col ways-to-get-news__col--twitter">
+          <div class="ways-to-get-news__img-container">
+            <img src="@/assets/twitter.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
+          </div>
           <h3>Twitter</h3>
           <p>Follow our Twitter Feeds</p>
+          <ul class='twitter-handles'>
+            <li>
+              <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
+            </li>
+            <li>
+              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion pieces
+            </li>
+            <li>
+              <a href="#">@ <span>DailySource</span></a>: All the news and opinion
+            </li>
+          </ul>
+          <p class='facebook-text text-left'>We also post stories daily to our Facebook <a href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
@@ -123,5 +137,44 @@ export default {
       }
     }
   }
+}
+
+.twitter-handles {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    font-size: 1.375rem;
+
+    // &:first-child {
+    //   a {
+    //     color: #F6C448;
+    //   }
+    // }
+
+    // &:nth-child(2) {
+    //   a {
+    //     color: #6334CE;
+    //   }
+    // }
+
+    // &:nth-child(3) {
+    //   a {
+    //     color: #5DCDE3;
+    //   }
+    // }
+
+    a {
+      text-decoration: none !important;
+      color: $blue;
+    }
+  }
+}
+
+.facebook-text {
+  padding-left: 4px;
 }
 </style>

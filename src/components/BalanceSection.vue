@@ -9,7 +9,7 @@
 
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Good News</h3>
+          <h3>Bad news and<br />good news</h3>
           <img class='d-block mx-auto' src="@/assets/good-news.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -22,7 +22,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>The bottom half</h3>
+          <h3>The richest half and<br />the poorest half</h3>
           <img class='d-block mx-auto' src="@/assets/the-bottom-half.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -35,7 +35,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Big-picture info</h3>
+          <h3>Isolated events and<br />actual trends</h3>
           <img class='d-block mx-auto' src="@/assets/big-pic-info.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -82,6 +82,7 @@ export default {
   h3 {
     font-family: $font-family-base;
     color: $primary;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1;
@@ -102,13 +103,16 @@ export default {
     flex-grow: 1;
     flex-shrink: 1;
     margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__right {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    margin-top: .125rem;
+    margin-top: .5rem;
   }
   
   p {
