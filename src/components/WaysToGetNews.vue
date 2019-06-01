@@ -5,15 +5,19 @@
       <p class='subheading'>We make it easy to regularly get your news from us. Life will distract you so we encourage you to set up one of the following now to ensure you remember to take advantage of what we provide:</p>
       <div class="row">
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/daily-email.png" alt="">
+          <div class="ways-to-get-news__img-container">
+            <img src="@/assets/daily-email.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--email'>
+          </div>
           <h3>Daily Headlines Email</h3>
           <p>We’ll send you all the stories we’ve published in the past 24 hours at whatever hour of the day you want:</p>
           <div class="newsletter-form-container">
             <newsletter-form />
           </div>
         </div>
-        <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/twitter.png" alt="">
+        <div class="col-md-6 ways-to-get-news__col ways-to-get-news__col--twitter">
+          <div class="ways-to-get-news__img-container">
+            <img src="@/assets/twitter.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
+          </div>
           <h3>Twitter</h3>
           <p>Follow our Twitter Feeds</p>
           <ul class='twitter-handles'>
@@ -30,12 +34,16 @@
           <p class='facebook-text'>We also post a few stories daily to our Facebook <a href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/home.png" alt="">
+          <div class="ways-to-get-news__img-container">
+            <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--home'>
+          </div>
           <h3>Make us your home page</h3>
           <p>Make DailySource your home page and you’ll have no chance of missing our great stories. You'll be certain to get high quality information and good news every day. To learn how to do this on your browser, click <a href='#'>here.</a></p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/rss.png" alt="">
+          <div class="ways-to-get-news__img-container">
+            <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>
+          </div>
           <h3>RSS Feeds</h3>
           <p>Subscribe to our RSS feeds</p>
           <ul class='rss-list'>
@@ -88,11 +96,21 @@ export default {
     margin-bottom: 3rem;
   }
 
-  img {
+  &__img-container {
+    height: 60px;
+  }
+
+  &__img {
     height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    &--twitter {
+      height: 70px;
+      position: relative;
+      top: -8px;
+    }
   }
 
   h3 {
