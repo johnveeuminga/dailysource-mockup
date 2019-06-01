@@ -82,10 +82,11 @@ export default {
   h3 {
     font-family: $font-family-base;
     color: $primary;
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1;
+    width: 100%;
   }
 
   &__section {
