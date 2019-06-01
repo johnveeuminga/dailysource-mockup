@@ -66,6 +66,7 @@ export default {
 
   h2 {
     margin-bottom: 1.25rem;
+    line-height: 1;
   }
 
   h3 {

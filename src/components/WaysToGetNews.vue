@@ -65,7 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-get-news {
-  padding-bottom: 0.25rem !important;
+  padding-bottom: 0 !important;
 
   h2 {
     color: $primary;
