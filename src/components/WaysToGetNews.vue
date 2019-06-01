@@ -145,6 +145,7 @@ export default {
 
     li {
       font-size: 20px;
+      margin-bottom: 0.25em;
 
       &:first-child {
         a {
