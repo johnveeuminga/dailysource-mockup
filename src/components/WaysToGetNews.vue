@@ -31,7 +31,7 @@
               <a href="#">@ <span>DailySource</span></a>: All the news and opinion
             </li>
           </ul>
-          <p class='facebook-text'>We also post a few stories daily to our Facebook <a href="#">page</a>.</p>
+          <p class='facebook-text text-left'>We also post a few stories daily to our Facebook <a href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <div class="ways-to-get-news__img-container">
@@ -163,10 +163,11 @@ export default {
 }
 
 .twitter-handles {
-  max-width: 550px;
+  max-width: 560px;
   margin-left: auto;
   margin-right: auto;
   list-style-type: none;
+  padding-left: 0;
 
   li {
     font-size: 1.375rem;
@@ -194,7 +195,6 @@ export default {
       color: #212529;
 
       span {
-        text-decoration: underline !important;
         color: $blue;
       }
     }
@@ -202,6 +202,7 @@ export default {
 }
 
 .facebook-text {
+  padding-left: 6px;
   a {
     color: $blue;
     text-decoration: underline;

@@ -55,7 +55,7 @@ export default {
 <style lang="scss" scoped>
 .balance {
   background-color: $gray;
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 2.5rem !important;
 
   &__subheading {
     font-size: 1.625rem !important;
@@ -78,8 +78,6 @@ export default {
   }
 
   &__section {
-    align-items: center;
-
     &:not(:last-of-type) {
       margin-bottom: 2rem;
     }
@@ -96,6 +94,7 @@ export default {
   }
 
   &__right {
+    margin-top: .5rem;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
