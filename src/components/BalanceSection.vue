@@ -18,7 +18,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>The Top 20% &<br/> The Poorest 50%</h3>
+          <h3>The Top 30% &<br/> The Bottom 50%</h3>
           <img class='d-block mx-auto' src="@/assets/the-bottom-half.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -74,9 +74,12 @@ export default {
     color: $primary;
     margin-bottom: 1rem;
     line-height: 1;
+    font-size: 35px;
   }
 
   &__section {
+    align-items: center;
+
     &:not(:last-of-type) {
       margin-bottom: 2rem;
     }
@@ -96,11 +99,14 @@ export default {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
-    margin-top: 1.5rem;
   }
   
   p {
     font-size: 1.375rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 </style>

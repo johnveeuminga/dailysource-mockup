@@ -18,15 +18,16 @@
           <p>Follow our Twitter Feeds</p>
           <ul class='twitter-handles'>
             <li>
-              <a href="#">@ <span>DailyTopStories</span></a>: Only the top stories
+              <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
             </li>
             <li>
-              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion
+              <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion pieces
             </li>
             <li>
-              <a href="#">@ <span>DailySource</span></a>: Everything
+              <a href="#">@ <span>DailySource</span></a>: All the news and opinion
             </li>
           </ul>
+          <p class='facebook-text'>We also post a few stories daily to our Facebook <a href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
@@ -71,6 +72,11 @@ export default {
     color: $primary;
     margin-bottom: 1.25rem;
     line-height: 1;
+  }
+
+  a {
+    text-decoration: underline;
+    color: $blue;
   }
 
   .subheading {
@@ -139,7 +145,7 @@ export default {
 }
 
 .twitter-handles {
-  max-width: 500px;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
   list-style-type: none;
@@ -168,11 +174,19 @@ export default {
     a {
       text-decoration: none !important;
       color: #212529;
+
       span {
         text-decoration: underline !important;
-        color: $primary;
+        color: $blue;
       }
     }
+  }
+}
+
+.facebook-text {
+  a {
+    color: $blue;
+    text-decoration: underline;
   }
 }
 </style>
