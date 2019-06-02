@@ -15,7 +15,7 @@
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/twitter.png" alt="">
           <h3>Twitter</h3>
-          <p>Follow Our Twitter Timelines:</p>
+          <p>Follow Our Twitter timelines:</p>
           <ul class='twitter-handles list-unstyled'>
             <li>
               <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
@@ -24,27 +24,31 @@
               <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion pieces
             </li>
             <li>
-              <a href="#">@ <span>DailySource</span></a>: All the news and opinion
+              <a href="#">@ <span>DailySource</span></a>: All the news and opinion pieces
             </li>
           </ul>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
           <h3>Make us your home page</h3>
-          <p>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p>
+          <div class="ways-to-get-news__home-page-content">
+            <p class='is-marginless'>Make the DailySource your home page so you'll get <br />great stories, good news and top information every day. <br /> To find how to do this on your browser, click <a href="#">here.</a></p>
+          </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/rss2.png" alt="">
           <h3>RSS Feeds</h3>
-          <p>Subscribe to our RSS feeds</p>
-          <ul class='rss-list'>
-            <li>Top stories</li>
-            <li>All items</li>
-            <li>The Good News</li>
-            <li>The Daily Quote</li>
-            <li>Photo of the Day</li>
-            <li>Columns/Op-ed</li>
-          </ul>
+          <div class="ways-to-get-news__rss-content">
+            <p>Subscribe to our RSS feeds</p>
+            <ul class='rss-list'>
+              <li>Top stories</li>
+              <li>All items</li>
+              <li>The Good News</li>
+              <li>The Daily Quote</li>
+              <li>Photo of the Day</li>
+              <li>Columns/Op-ed</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -118,7 +122,8 @@ export default {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 0;
+
     li {
       position: relative;
       list-style: none;
@@ -161,7 +166,7 @@ export default {
 
       &:nth-child(3) {
         a {
-          color: #5DCDE3;
+          color: #e74392;
         }
       }
 
@@ -173,6 +178,16 @@ export default {
           color: $blue;
         }
       }
+    }
+  }
+
+  &__home-page-content {
+    display: flex;
+    align-items: center;
+    height: 136px;
+
+    p {
+      margin-bottom: 0;
     }
   }
 }
