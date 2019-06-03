@@ -2,7 +2,11 @@
   <section class="news py-4">
     <div class="container">
       <h2 class='text-center text-primary'>News about making the world better</h2>
-      <p class='news__subheading text-center'>We cover the biggest problems in the world to bring attention to them. We also cover positive things people are doing to help, so people will be encouraged and inspired to do more good.  Some of the topics we cover:</p>
+      <p class='news__subheading text-center'>
+        We cover major issues in the world to bring greater attention to them. We also <br />
+        cover positive things that people are doing to help, so that people will be encouraged <br />
+        and inspired to do more good. These are some of the topics we cover:
+      </p>
       <div class="row news__row-wrapper">
         <div class="col-md-4">
           <div class="news__col">
@@ -22,7 +26,7 @@
           <div class="news__col">
             <img class='news__img' src="@/assets/poverty.png" alt="">
             <h3 class='text-center'>Poverty</h3>
-            <p>Half of all people are living on less than $3,000 a year for all their needs. This affects their health, families, education, shelter and all else. We tell you their and the stories of the people and groups helping them.</p>
+            <p>Half of all people live on under $3,000 a year for all their needs. This affects their health, shelter, education, families and all else. We tell you their stories and the stories of the people and groups helping them.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -43,7 +47,7 @@
           <div class="news__col">
             <img class='news__img' src="@/assets/environment.png" alt="">
             <h3 class='text-center'>Environment</h3>
-            <p>Climate change is slated to bring extreme weather, destruction, the spread of diseases, crop failures, geo-political turmoil and economic loss. The first step in improving the world is making sure it doesn’t drive off a cliff.</p>
+            <p>Climate change is slated to bring extreme weather, destruction, diseases, crop failures, political turmoil and economic loss. The first step in improving the world is making sure it doesn’t drive off a cliff.</p>
           </div>
         </div>
       </div>
@@ -72,7 +76,6 @@ export default {
   &__subheading {
     font-size: 1.625rem !important;
     margin-bottom: 3rem;
-    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
   }

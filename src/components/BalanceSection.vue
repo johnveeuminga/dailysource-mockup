@@ -2,7 +2,11 @@
   <section class="balance py-4">
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
-      <p class='balance__subheading text-center'>We give you stories that are balanced: providing both sides of the story. More importantly, we fix <br /> the greatest imbalances of the news media by giving you balance in the following key areas:</p>
+      <p class='balance__subheading text-center'>
+        We give you stories that are balanced about the topics they cover - providing <br />
+        both sides of what’s going on. More importantly, we address the major imbalances that <br />      
+        the news media suffers from by giving you balance in these essential areas:
+      </p>
       <div class="balance__section d-flex">
         <div class="balance__left">
           <h3>Bad News &<br/> Good News</h3>
@@ -42,6 +46,11 @@
           </p>
         </div>
       </div>
+      <p class='balance__subheading text-center'>
+        With other news outlets, you mostly get small isolated details and bad news <br/>
+        about the richest 30% of people. With us, you get a great mix of good news and <br/>
+        bad news, big picture info and small details, and news about all people.
+      </p>
     </div>
   </section>
 </template>
@@ -78,9 +87,7 @@ export default {
   }
 
   &__section {
-    &:not(:last-of-type) {
-      margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
   }
 
   &__left {

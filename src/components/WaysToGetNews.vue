@@ -19,7 +19,7 @@
             <img src="@/assets/twitter.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
           </div>
           <h3>Twitter</h3>
-          <p>Follow our Twitter Feeds</p>
+          <p>Follow our Twitter timelines:</p>
           <ul class='twitter-handles'>
             <li>
               <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
@@ -38,23 +38,31 @@
             <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--home'>
           </div>
           <h3>Make us your home page</h3>
-          <p>Make DailySource your home page and you’ll have no chance of missing our great stories. You'll be certain to get high quality information and good news every day. To learn how to do this on your browser, click <a href='#'>here.</a></p>
+          <div class="ways-to-get-news__home-page-content">
+            <p>
+              Make the DailySource your home page so you'll get <br />
+              great stories, good news and top information every day. <br />
+              To find how to do this on your browser, click <a href="#">here</a>.
+            </p>
+          </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <div class="ways-to-get-news__img-container">
             <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>
           </div>
           <h3>RSS Feeds</h3>
-          <p>Subscribe to our RSS feeds</p>
-          <ul class='rss-list'>
-            <li>Top stories</li>
-            <li>All items</li>
-            <li>The Good News</li>
-            <li>The Daily Quote</li>
-            <li>Photo of the Day</li>
-            <li>Columns/Op-ed</li>
-          </ul>
-        </div>
+          <div class="ways-to-get-news__rss-content">
+            <p>Subscribe to our RSS feeds</p>
+            <ul class='rss-list'>
+              <li>Top stories</li>
+              <li>All items</li>
+              <li>The Good News</li>
+              <li>The Daily Quote</li>
+              <li>Photo of the Day</li>
+              <li>Columns/Op-ed</li>
+            </ul>
+          </div>
+          </div>
       </div>
     </div>
   </section>
@@ -74,7 +82,7 @@ export default {
 
 <style lang="scss" scoped>
 .ways-to-get-news {
-  padding-bottom: 0 !important;
+  padding-bottom: 1.375rem !important;
 
   h2 {
     color: $primary;
@@ -97,11 +105,11 @@ export default {
   }
 
   &__img-container {
-    height: 60px;
+    height: 80px;
   }
 
   &__img {
-    height: 60px;
+    height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,7 +117,13 @@ export default {
     &--twitter {
       height: 70px;
       position: relative;
-      top: -8px;
+      top: 5px;
+    }
+
+    &--rss {
+      height: 72px;
+      position: relative;
+      top: 4px;
     }
   }
 
@@ -142,6 +156,7 @@ export default {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     
     li {
       position: relative;
@@ -160,6 +175,16 @@ export default {
       }
     }
   }
+
+  &__home-page-content {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+    p {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .twitter-handles {
@@ -172,31 +197,27 @@ export default {
   li {
     font-size: 1.375rem;
 
-    &:first-child {
-      a {
-        color: #F6C448;
-      }
-    }
+    // &:first-child {
+    //   a {
+    //     color: #F6C448;
+    //   }
+    // }
 
-    &:nth-child(2) {
-      a {
-        color: #6334CE;
-      }
-    }
+    // &:nth-child(2) {
+    //   a {
+    //     color: #6334CE;
+    //   }
+    // }
 
-    &:nth-child(3) {
-      a {
-        color: #5DCDE3;
-      }
-    }
+    // &:nth-child(3) {
+    //   a {
+    //     color: #5DCDE3;
+    //   }
+    // }
 
     a {
       text-decoration: none !important;
-      color: #212529;
-
-      span {
-        color: $blue;
-      }
+      color: $blue;
     }
   }
 }
