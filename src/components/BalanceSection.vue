@@ -3,8 +3,13 @@
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
       <div class="balance__subheading">
-        <p>We choose stories that are balanced about the topics they cover - providing both sides of the story. </p>
-        <p>More importantly, we address the greatest imbalances of the news media by providing more focus on:</p>
+        <!-- <p>We choose stories that are balanced about the topics they cover - providing both sides of the story. </p>
+        <p>More importantly, we address the greatest imbalances of the news media by providing more focus on:</p> -->
+        <p>
+          We give you stories that are balanced about the topics they cover - providing <br />
+          both sides of the story. More importantly, we address the greatest imbalances that the <br />
+          news media suffers from by providing balance in these important areas: 
+        </p>
       </div>
 
       <div class="balance__section d-flex">

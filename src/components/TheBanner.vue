@@ -25,19 +25,19 @@ export default {
 .banner {
   background-color: $gray;
   display: flex;
-  height: 550px;
+  height: 500px;
   align-items: center;
 
   h1 {
     color: $primary;
     font-size: $h2-font-size;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1;
   }
 
   p {
     font-size: 1.625rem;
-    max-width: 1100px;
+    max-width: 950px;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
