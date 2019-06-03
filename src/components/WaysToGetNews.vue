@@ -32,7 +32,7 @@
           <img src="@/assets/home.png" alt="">
           <h3>Make us your home page</h3>
           <div class="ways-to-get-news__home-page-content">
-            <p class='is-marginless'>Make the DailySource your home page so you'll get <br />great stories, good news and top information every day. <br /> To find how to do this on your browser, click <a href="#">here.</a></p>
+            <p class='is-marginless'>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p>
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
