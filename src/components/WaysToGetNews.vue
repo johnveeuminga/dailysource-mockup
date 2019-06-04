@@ -34,7 +34,14 @@
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="">
           <h3>Make us your home page</h3>
-          <p>Make DailySource your home page and you’ll have no chance of missing our great stories. You'll be certain to get high quality information and good news every day. To learn how to do this on your browser, click <a href='#'>here.</a></p>
+          <!-- <p>Make DailySource your home page and you’ll have no chance of missing our great stories. You'll be certain to get high quality information and good news every day. To learn how to do this on your browser, click <a href='#'>here.</a></p> -->
+          <div class="ways-to-get-news__home-page-content">
+            <p class='home-page-text'>
+              Make the DailySource your home page so you'll get <br />
+              great stories, good news and top information every day. <br />
+              To find how to do this on your browser, click <a href="#">here</a>.
+            </p>
+          </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/rss.png" alt="">
@@ -114,11 +121,24 @@ export default {
     margin-bottom: 1.5rem;
   }
 
+  &__home-page-content {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
   .rss-list {
     columns: 2;
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     
     li {
       position: relative;
@@ -176,5 +196,8 @@ export default {
 
 .facebook-text {
   padding-left: 4px;
+}
+
+.home-page-text {
 }
 </style>
