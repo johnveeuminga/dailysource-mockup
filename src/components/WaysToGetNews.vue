@@ -50,13 +50,13 @@
           <div class="ways-to-get-news__img-container">
             <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>
           </div>
-          <h3>RSS Feeds</h3>
+          <h3>Subscribe to our RSS feeds</h3>
           <div class="ways-to-get-news__rss-content">
-            <p>Subscribe to our RSS feeds</p>
+            <!-- <p>Subscribe to our RSS feeds</p> -->
             <ul class='rss-list'>
               <li>Top stories</li>
               <li>All items</li>
-              <li>The Good News</li>
+              <li>Good News</li>
               <li>The Daily Quote</li>
               <li>Photo of the Day</li>
               <li>Columns/Op-ed</li>
@@ -138,6 +138,7 @@ export default {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.375rem;
+    margin-bottom: .5rem;
   }
 
   .newsletter-form-container {
@@ -152,10 +153,11 @@ export default {
 
   .rss-list {
     columns: 2;
-    max-width: 450px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    margin-top: 34px;
     
     li {
       position: relative;
@@ -190,6 +192,7 @@ export default {
   max-width: 560px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: .5rem;
   list-style-type: none;
   padding-left: 0;
 
