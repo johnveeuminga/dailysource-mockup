@@ -2,10 +2,10 @@
   <section class="balance py-4">
     <div class="container">
       <h2 class="text-center text-primary">True balance in multiple ways</h2>
-      <p class="balance__subheading">We give you stories that are balanced: providing both sides of the story. More importantly, we fix <br /> the greatest imbalances of the news media by giving you balance in the following key areas:</p>
+      <p class="balance__subheading">We give you balanced news by providing both sides of the story. More importantly, we fixthe greatest imbalances of the news media by giving you balance in these key areas:</p>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Bad news vs.<br/> good news</h3>
+          <h3>Bad news, not<br/> good news</h3>
           <img class='d-block mx-auto' src="@/assets/good-news.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -18,7 +18,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>The richest 20% vs.<br /> the poorest 50%</h3>
+          <h3>The richest 20%, not<br /> the poorest 50%</h3>
           <img class='d-block mx-auto' src="@/assets/the-bottom-half.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -31,7 +31,7 @@
       </div>
       <div class="balance__section d-flex">
         <div class="balance__left">
-          <h3>Isolated events vs.<br />actual trends</h3>
+          <h3>Isolated events, not<br />actual trends</h3>
           <img class='d-block mx-auto' src="@/assets/big-pic-info.png" alt="Good News">
         </div>
         <div class="balance__right">
@@ -42,6 +42,8 @@
           </p>
         </div>
       </div>
+      <p class='balance__subheading balance__subheading--no-margin balance__subheading--bottom'>At other sites you get small isolated details and bad news about the richest 30%. With us you get
+  a great mix of good and bad news, big picture info and small details, and news about all people.</p>
     </div>
   </section>
 </template>
@@ -64,6 +66,15 @@ export default {
     margin-right: auto;
     text-align: center;
     margin-bottom: 3rem;
+    max-width: 985px;
+
+    &--no-margin {
+      margin-bottom: 0;
+    }
+
+    &--bottom {
+      max-width: 1035px; 
+    }
   }
 
   h2 {
@@ -80,9 +91,7 @@ export default {
   }
 
   &__section {
-    &:not(:last-of-type) {
-      margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
   }
 
   &__left {

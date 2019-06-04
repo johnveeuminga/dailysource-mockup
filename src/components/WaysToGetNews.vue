@@ -5,7 +5,7 @@
       <p class='subheading'>We make it easy to regularly get your news from us. Life will distract you so we encourage you to set up one of the following now to ensure you remember to take advantage of what we provide:</p>
       <div class="row">
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/newsletter.png" alt="">
+          <img src="@/assets/newsletter.png" alt="" class='ways-to-get-news__img'>
           <h3>Daily Headlines Email</h3>
           <p>We’ll send you all the stories we’ve published in the past 24 hours at whatever hour of the day you want:</p>
           <div class="newsletter-form-container">
@@ -13,9 +13,9 @@
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/twitter.png" alt="">
+          <img src="@/assets/twitter.png" alt="Twitter Icon" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
           <h3>Twitter</h3>
-          <p>Follow Our Twitter timelines:</p>
+          <p>Follow Our Twitter timelines</p>
           <ul class='twitter-handles list-unstyled'>
             <li>
               <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
@@ -29,14 +29,14 @@
           </ul>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/home.png" alt="">
+          <img src="@/assets/home.png" alt="" class='ways-to-get-news__img'>
           <h3>Make us your home page</h3>
           <div class="ways-to-get-news__home-page-content">
             <p class='is-marginless'>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p>
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/rss2.png" alt="">
+          <img src="@/assets/rss2.png" alt="" class='ways-to-get-news__img'>
           <h3>RSS Feeds</h3>
           <div class="ways-to-get-news__rss-content">
             <p>Subscribe to our RSS feeds</p>
@@ -77,6 +77,10 @@ export default {
     margin-bottom: 1.5rem;
   }
 
+  a {
+    color: $blue;
+  }
+
   .subheading {
     font-size: 1.5rem;
     max-width: 875px;
@@ -86,11 +90,16 @@ export default {
     margin-bottom: 3rem;
   }
 
-  img {
+  &__img {
     height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    &--twitter {
+      position: relative;
+      top: 8px;
+    }
   }
 
   h3 {
@@ -152,27 +161,9 @@ export default {
       font-size: 20px;
       margin-bottom: 0.25em;
 
-      &:first-child {
-        a {
-          color: #F6C448;
-        }
-      }
-
-      &:nth-child(2) {
-        a {
-          color: #6334CE;
-        }
-      }
-
-      &:nth-child(3) {
-        a {
-          color: #e74392;
-        }
-      }
-
       a {
         text-decoration: none !important;
-        color: $body-color;
+        color: $blue;
 
         span {
           color: $blue;
