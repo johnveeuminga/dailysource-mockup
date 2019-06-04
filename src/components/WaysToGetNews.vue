@@ -29,24 +29,26 @@
           </ul>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/home.png" alt="" class='ways-to-get-news__img'>
+          <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img ways-to-get-news__img--home-page'>
           <h3>Make us your home page</h3>
           <div class="ways-to-get-news__home-page-content">
             <p class='is-marginless'>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p>
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/rss2.png" alt="" class='ways-to-get-news__img'>
+          <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>
           <h3>RSS Feeds</h3>
           <div class="ways-to-get-news__rss-content">
             <p>Subscribe to our RSS feeds</p>
             <ul class='rss-list'>
               <li>Top stories</li>
-              <li>All items</li>
-              <li>The Good News</li>
-              <li>The Daily Quote</li>
-              <li>Photo of the Day</li>
               <li>Columns/Op-ed</li>
+              <li>Photo of the Day</li>
+            </ul>
+            <ul class="rss-list">
+              <li>All Items</li>
+              <li>Good News</li>
+              <li>The Daily Quote</li>
             </ul>
           </div>
         </div>
@@ -95,10 +97,16 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative
 
     &--twitter {
       position: relative;
       top: 8px;
+    }
+
+    &--rss {
+      height: 68px;
+      top: 6px;
     }
   }
 
@@ -127,11 +135,15 @@ export default {
   }
 
   .rss-list {
-    columns: 2;
-    max-width: 450px;
+    display: flex;
+    align-items: center;
+    max-width: 575px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     li {
       position: relative;
@@ -139,6 +151,23 @@ export default {
       display: flex;
       align-items: center;
       font-size: 20px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      min-width: 120px;
+      flex-basis: 120px;
+
+            
+      &:first-of-type {
+        max-width: 165px;
+      }
+
+      &:nth-of-type(2) {
+        max-width: 195px;
+      }
+
+      &:nth-of-type(3) {
+        max-width: 180px;
+      }
 
       &:before {
         content: '';
