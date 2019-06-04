@@ -115,9 +115,8 @@ export default {
     margin-right: auto;
 
     &--twitter {
-      height: 70px;
       position: relative;
-      top: 5px;
+      top: 6px;
     }
 
     &--rss {
