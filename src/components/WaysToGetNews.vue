@@ -19,7 +19,7 @@
             <img src="@/assets/twitter.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
           </div>
           <h3>Twitter</h3>
-          <p>Follow our Twitter timelines:</p>
+          <p>Follow our Twitter timelines</p>
           <ul class='twitter-handles'>
             <li>
               <a href="#">@ <span>DailyTopStories</span></a>: Only the top news stories
