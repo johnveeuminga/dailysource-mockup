@@ -2,9 +2,9 @@
   <section class="ways-to-get-news py-4">
     <div class="container">
       <h2 class='text-center'>Multiple Ways to Get News From Us</h2>
-      <p class='subheading'>We make it easy to regularly get your news from us. Life will distract you so we encourage you to set up one of the following now to ensure you remember to take advantage of what we provide:</p>
+      <p class='subheading'>We make it easy to regularly get your news from us. Life will distract you, so we recommend<br />you set up one of the following now so that you remember to benefit from what we do:</p>
       <div class="row">
-        <div class="col-md-6 ways-to-get-news__col">
+        <div class="col-md-6 ways-to-get-news__col ways-to-get-news__col--email">
           <img src="@/assets/newsletter.png" alt="" class='ways-to-get-news__img'>
           <h3>Daily Headlines Email</h3>
           <p>We’ll send you all the stories we’ve published in the past 24 hours at whatever hour of the day you want:</p>
@@ -24,9 +24,10 @@
               <a href="#">@ <span>DailySourceNews</span></a>: All the news, no opinion pieces
             </li>
             <li>
-              <a href="#">@ <span>DailySource</span></a>: All the news and opinion pieces
+              <a href="#">@ <span>DailySource</span></a>: All the news and opinion
             </li>
           </ul>
+          <p class="facebook-text text-left">We also post a few stories daily to our Facebook <a data-v-6aa9ff3e="" href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
           <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img ways-to-get-news__img--home-page'>
@@ -90,8 +91,8 @@ export default {
 
   .subheading {
     font-size: 1.5rem;
-    max-width: 875px;
     margin-left: auto;
+    max-width: 100%;
     margin-right: auto;
     text-align: center;
     margin-bottom: 3rem;
@@ -127,6 +128,7 @@ export default {
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    margin-bottom: .5rem;
   }
 
   .newsletter-form-container {
@@ -143,6 +145,16 @@ export default {
         margin-bottom: 0;
       }
     }
+
+    &--email {
+      h3 {
+        margin-bottom: 0.75rem;
+      }
+    }
+  }
+
+  &__rss-content {
+    margin-top: 44px;
   }
 
   .rss-list {
@@ -154,7 +166,7 @@ export default {
     margin-bottom: 0;
     padding-left: 0;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     &:not(:last-of-type) {
       margin-top: .5rem;
@@ -177,7 +189,7 @@ export default {
       }
 
       &:nth-of-type(2) {
-        max-width: 195px;
+        max-width: 206px;
       }
 
       &:nth-of-type(3) {
@@ -200,10 +212,10 @@ export default {
     margin-left: auto;
     margin-right: auto;
     list-style-type: none;
+    margin-bottom: 0.5rem;
 
     li {
       font-size: 20px;
-      margin-bottom: 0.25em;
 
       a {
         text-decoration: none !important;
@@ -225,5 +237,10 @@ export default {
       margin-bottom: 0;
     }
   }
+}
+
+.facebook-text {
+  max-width: 500px !important;
+  padding-left: 6px;
 }
 </style>

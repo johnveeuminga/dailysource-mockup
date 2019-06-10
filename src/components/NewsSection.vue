@@ -1,8 +1,8 @@
 <template>
   <section class="news py-4">
     <div class="container">
-      <h2 class='text-center text-primary'>News about making the world better</h2>
-      <p class='news__subheading text-center'>We cover the biggest problems in the world to bring attention to them. We also cover positive things people are doing to help, so people will be encouraged and inspired to do more good.  Some of the topics we cover:</p>
+      <h2 class='text-center text-primary'>News for a better world</h2>
+      <p class='news__subheading text-center'>We provide news related to making our world better. We give greater attention to the biggest<br />problems and the positive things people are doing to help. Some of the topics we cover are:</p>
       <div class="row news__row-wrapper">
         <div class="col-md-4">
           <div class="news__col">
@@ -72,7 +72,7 @@ export default {
   &__subheading {
     font-size: 1.5rem !important;
     margin-bottom: 3rem !important;
-    max-width: 830px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }

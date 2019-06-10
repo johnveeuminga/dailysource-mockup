@@ -40,6 +40,10 @@ export default {
     }
   }
 
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+
   &__time-input {
     max-width: 80px;
     margin-right: .375em;
