@@ -5,7 +5,9 @@
       <p class='subheading'>We make it easy to regularly get your news from us. Life will distract you, so we recommend<br />you set up one of the following now so that you remember to benefit from what we do:</p>
       <div class="row">
         <div class="col-md-6 ways-to-get-news__col ways-to-get-news__col--email">
-          <img src="@/assets/newsletter.png" alt="" class='ways-to-get-news__img'>
+          <div class="ways-to-get-news__img-wrapper">
+            <img src="@/assets/newsletter.png" alt="" class='ways-to-get-news__img'>  
+          </div>
           <h3>Daily Headlines Email</h3>
           <p>We’ll send you all the stories we’ve published in the past 24 hours at whatever hour of the day you want:</p>
           <div class="newsletter-form-container">
@@ -13,7 +15,9 @@
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/twitter.png" alt="Twitter Icon" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
+          <div class="ways-to-get-news__img-wrapper">
+            <img src="@/assets/twitter.png" alt="Twitter Icon" class='ways-to-get-news__img ways-to-get-news__img--twitter'>
+          </div>
           <h3>Twitter</h3>
           <p>Follow Our Twitter timelines</p>
           <ul class='twitter-handles list-unstyled'>
@@ -30,7 +34,9 @@
           <p class="facebook-text text-left">We also post a few stories daily to our Facebook <a data-v-6aa9ff3e="" href="#">page</a>.</p>
         </div>
         <div class="col-md-6 ways-to-get-news__col">
-          <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img ways-to-get-news__img--home-page'>
+          <div class="ways-to-get-news__img-wrapper">
+            <img src="@/assets/home.png" alt="" class='ways-to-get-news__img ways-to-get-news__img ways-to-get-news__img--home-page'>            
+          </div>
           <h3>Make us your home page</h3>
           <div class="ways-to-get-news__home-page-content">
             <!-- <p class='is-marginless'>Make the DailySource your home page so that you'll get good news, great stories and top information every day. To learn how to do this on your browser, click here. To find how to add us to your smartphone home screen, click <a href="#">here.</a></p> -->
@@ -42,20 +48,25 @@
           </div>
         </div>
         <div class="col-md-6 ways-to-get-news__col ways-to-get-news__col--rss">
-          <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>
+          <div class="ways-to-get-news__img-wrapper">
+            <img src="@/assets/rss.png" alt="" class='ways-to-get-news__img ways-to-get-news__img--rss'>                        
+          </div>
           <h3>RSS Feeds</h3>
           <div class="ways-to-get-news__rss-content">
-            <p>Subscribe to our RSS feeds</p>
-            <ul class='rss-list'>
-              <li>Top stories</li>
-              <li>Columns/Op-ed</li>
-              <li>Photo of the Day</li>
-            </ul>
-            <ul class="rss-list">
-              <li>All Items</li>
-              <li>Good News</li>
-              <li>The Daily Quote</li>
-            </ul>
+            <div class="ways-to-get-news__rss-content-inner">
+
+              <p>Subscribe to our RSS feeds</p>
+              <ul class='rss-list'>
+                <li>Top stories</li>
+                <li>Columns/Op-ed</li>
+                <li>Photo of the Day</li>
+              </ul>
+              <ul class="rss-list">
+                <li>All Items</li>
+                <li>Good News</li>
+                <li>The Daily Quote</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -98,12 +109,17 @@ export default {
     margin-bottom: 3rem;
   }
 
+  &__img-wrapper {
+    height: 80px;
+    display: block;
+  }
+
   &__img {
     height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative
+    position: relative;
 
     &--twitter {
       position: relative;
@@ -153,13 +169,20 @@ export default {
     }
   }
 
-  &__rss-content {
-    margin-top: 44px;
+  &__rss-content{
+    height: 110px;
+    align-items: center;
+    display: flex;
+  }
+
+  &__rss-content-inner {
+    width: 100%;
   }
 
   .rss-list {
     display: flex;
     align-items: center;
+    width: 100%;
     max-width: 575px;
     margin-left: auto;
     margin-right: auto;
@@ -182,7 +205,6 @@ export default {
       flex-shrink: 0;
       min-width: 120px;
       flex-basis: 120px;
-
             
       &:first-of-type {
         max-width: 165px;
@@ -231,7 +253,7 @@ export default {
   &__home-page-content {
     display: flex;
     align-items: center;
-    height: 136px;
+    height: 110px;
 
     p {
       margin-bottom: 0;
