@@ -4,8 +4,6 @@
     <the-banner />
     <news-section />
     <balance-section />
-    <ways-to-get-news />
-    <ways-to-support />
   </div>
 </template>
 
